@@ -1,0 +1,33 @@
+h1 {
+    color: orange;
+     position: relative; 
+     top: 50px; 
+     left: 20px; 
+}
+
+body{
+    background-color: #231E1F;
+}
+
+img {
+    
+    position: relative; 
+    top: -59px; 
+    
+    left: 1500px;
+}
+
+
+.image-zoom {
+  
+  width: 80px;
+  height: 80px;
+  
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-zoom:hover {
+  
+  transform: scale(1.2); 
+
+}
